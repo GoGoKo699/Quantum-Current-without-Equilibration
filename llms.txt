@@ -16,6 +16,15 @@ This repository studies a source-balanced scalar current in a noninteracting fer
 - Imported tools and closest quantum algorithms: references/RELATED_WORK.md and references/references.bib.
 - Reproduction commands and finite-check scope: verification/README.md.
 
+## Learning route
+
+The one educational anchor is Breuer and Petruccione, The Theory of Open Quantum Systems (original 2002; verified publisher paperback/online record 2007).
+
+- Start with learning/BREUER_PETRUCCIONE_BRIDGE.md for chapter pointers, notation, physical interpretation and the steps connecting open-system trajectories to the algorithm.
+- Follow learning/MILESTONES.md: exactly 30 project-intrinsic targets, M01–M14 background/preliminaries and M15–M30 narrative/innovation, each phase ordered from local to global.
+- Use the canonical science pages for exact claims and proofs and references/RELATED_WORK.md for imported results. Research citations are attribution sources, not additional educational anchors.
+- The shared map contains scientific understanding targets rather than personal learner records or an assessment procedure.
+
 ## Essential distinctions
 
 The target p_R=J_R/W is a current per bare injection rate and an auxiliary right-absorption probability with absorption at both contacts. It is not a fraction of successfully injected many-fermion particles. The source state is Gamma_L/W; an arbitrary long-lived input does not satisfy the same residence bound.

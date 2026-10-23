@@ -26,6 +26,12 @@ The algorithm estimates $`p_R`$ to additive error $`\epsilon`$. Here $`a`$ is th
 
 Start with the [physical model and scientific route](science/model.md). The [classical frequency estimator](science/frequency_sampling.md) supplies a finite-bit gap-independent comparison for uniform contacts. The [related-work account](references/RELATED_WORK.md) separates the inherited residence, simulation and estimation tools from the task-specific construction. The [LLM guide](llms.txt) maps questions to their authoritative files.
 
+## Learn the project
+
+The single educational anchor is **Breuer–Petruccione, *The Theory of Open Quantum Systems*** (original 2002; the linked publisher record is the 2007 paperback/online edition). The [source bridge](learning/BREUER_PETRUCCIONE_BRIDGE.md) connects its probability, master-equation and trajectory chapters to the specific source-balanced transport model, reversible first-event circuit and scalar estimator.
+
+The [30-milestone map](learning/MILESTONES.md) has **14 background/preliminaries milestones** and **16 narrative/innovation milestones**. Each phase moves from local ingredients to the complete scientific story, with understanding targets, earlier dependencies and source pointers. The map is common to all readers; the [LLM guide](llms.txt) gives the same learning and proof routes.
+
 ## Reproduce the checks
 
 ```bash
