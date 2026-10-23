@@ -1,0 +1,757 @@
+{
+  "summary": {
+    "record_count": 23,
+    "max_lyapunov_residual": 1.2199378406341493e-14,
+    "max_absorption_normalization_error": 8.881784197001252e-15,
+    "all_covariances_in_0_I_to_tolerance": true,
+    "all_capacity_bounds_hold": true
+  },
+  "records": [
+    {
+      "name": "three_site_g=1",
+      "dimension": 3,
+      "source_weight": 1.0,
+      "hamiltonian_norm": 1.4142135623730951,
+      "population_decay_gap": 0.4838882550430547,
+      "mean_residence": 1.4285714285714273,
+      "capacity_bound_N_over_W": 3.0,
+      "fraction_of_capacity_bound": 0.4761904761904758,
+      "p_left": 0.7142857142857139,
+      "p_right": 0.2857142857142855,
+      "total_absorption_error": 6.661338147750939e-16,
+      "covariance_eigenvalue_min": 0.04337246009327163,
+      "covariance_eigenvalue_max": 0.7883140999037629,
+      "lyapunov_residual_2norm": 1.7151911168290828e-15,
+      "exact_covariance_available": false,
+      "numerical_covariance_forward_error_2norm": null,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 0.000732934140675702,
+          "markov_bound_from_mean": 0.14285714285714274,
+          "right_absorption_remaining": 0.0003400626578568405
+        },
+        {
+          "time": 100.0,
+          "survival": 3.3060379429343973e-23,
+          "markov_bound_from_mean": 0.014285714285714273,
+          "right_absorption_remaining": 3.099623877867471e-23
+        }
+      ],
+      "analytic_p_right": 0.2857142857142857,
+      "analytic_mean_residence": 1.4285714285714286
+    },
+    {
+      "name": "three_site_g=0.1",
+      "dimension": 3,
+      "source_weight": 1.0,
+      "hamiltonian_norm": 1.004987562112089,
+      "population_decay_gap": 0.007961561162128816,
+      "mean_residence": 1.2031872509960153,
+      "capacity_bound_N_over_W": 3.0,
+      "fraction_of_capacity_bound": 0.4010624169986718,
+      "p_left": 0.6015936254980075,
+      "p_right": 0.3984063745019919,
+      "total_absorption_error": 5.551115123125783e-16,
+      "covariance_eigenvalue_min": 0.18914662339433266,
+      "covariance_eigenvalue_max": 0.7244488290683639,
+      "lyapunov_residual_2norm": 7.243363691728673e-16,
+      "exact_covariance_available": false,
+      "numerical_covariance_forward_error_2norm": null,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 0.0015423241191628607,
+          "markov_bound_from_mean": 0.12031872509960154,
+          "right_absorption_remaining": 0.0012402773927661596
+        },
+        {
+          "time": 100.0,
+          "survival": 0.0007135657501512957,
+          "markov_bound_from_mean": 0.012031872509960153,
+          "right_absorption_remaining": 0.0005726690761786428
+        }
+      ],
+      "analytic_p_right": 0.39840637450199207,
+      "analytic_mean_residence": 1.203187250996016
+    },
+    {
+      "name": "three_site_g=0.01",
+      "dimension": 3,
+      "source_weight": 1.0,
+      "hamiltonian_norm": 1.0000499987500624,
+      "population_decay_gap": 7.999615995906133e-05,
+      "mean_residence": 1.200031998720052,
+      "capacity_bound_N_over_W": 3.0,
+      "fraction_of_capacity_bound": 0.40001066624001735,
+      "p_left": 0.6000159993600266,
+      "p_right": 0.39998400063997425,
+      "total_absorption_error": 8.881784197001252e-16,
+      "covariance_eigenvalue_min": 0.19987226016673315,
+      "covariance_eigenvalue_max": 0.7236152433188483,
+      "lyapunov_residual_2norm": 1.7580261047976597e-15,
+      "exact_covariance_available": false,
+      "numerical_covariance_forward_error_2norm": null,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 6.176637525900694e-05,
+          "markov_bound_from_mean": 0.12000319987200521,
+          "right_absorption_remaining": 4.2326751023943015e-05
+        },
+        {
+          "time": 100.0,
+          "survival": 1.587073890501788e-05,
+          "markov_bound_from_mean": 0.01200031998720052,
+          "right_absorption_remaining": 1.2696997392177472e-05
+        }
+      ],
+      "analytic_p_right": 0.39998400063997436,
+      "analytic_mean_residence": 1.2000319987200512
+    },
+    {
+      "name": "three_site_g=0.001",
+      "dimension": 3,
+      "source_weight": 1.0,
+      "hamiltonian_norm": 1.000000499999875,
+      "population_decay_gap": 7.999996159999589e-07,
+      "mean_residence": 1.2000003199998728,
+      "capacity_bound_N_over_W": 3.0,
+      "fraction_of_capacity_bound": 0.4000001066666243,
+      "p_left": 0.6000001599999364,
+      "p_right": 0.3999998400000643,
+      "total_absorption_error": 6.661338147750939e-16,
+      "covariance_eigenvalue_min": 0.1999987200261111,
+      "covariance_eigenvalue_max": 0.7236068822082009,
+      "lyapunov_residual_2norm": 6.841944367028768e-16,
+      "exact_covariance_available": false,
+      "numerical_covariance_forward_error_2norm": null,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 4.5563740716742795e-05,
+          "markov_bound_from_mean": 0.12000003199998728,
+          "right_absorption_remaining": 2.9268817575209354e-05
+        },
+        {
+          "time": 100.0,
+          "survival": 1.599870213323588e-07,
+          "markov_bound_from_mean": 0.012000003199998728,
+          "right_absorption_remaining": 1.279896580225419e-07
+        }
+      ],
+      "analytic_p_right": 0.399999840000064,
+      "analytic_mean_residence": 1.200000319999872
+    },
+    {
+      "name": "three_site_g=0.0001",
+      "dimension": 3,
+      "source_weight": 1.0,
+      "hamiltonian_norm": 1.000000005,
+      "population_decay_gap": 7.9999999616e-09,
+      "mean_residence": 1.2000000031999998,
+      "capacity_bound_N_over_W": 3.0,
+      "fraction_of_capacity_bound": 0.4000000010666666,
+      "p_left": 0.6000000015999998,
+      "p_right": 0.3999999984,
+      "total_absorption_error": 2.220446049250313e-16,
+      "covariance_eigenvalue_min": 0.19999998720000267,
+      "covariance_eigenvalue_max": 0.7236067985945611,
+      "lyapunov_residual_2norm": 4.651183248497315e-16,
+      "exact_covariance_available": false,
+      "numerical_covariance_forward_error_2norm": null,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 4.540156788668436e-05,
+          "markov_bound_from_mean": 0.12000000031999998,
+          "right_absorption_remaining": 2.9138125373538612e-05
+        },
+        {
+          "time": 100.0,
+          "survival": 1.5999987020805353e-09,
+          "markov_bound_from_mean": 0.012000000031999998,
+          "right_absorption_remaining": 1.2799989657604265e-09
+        }
+      ],
+      "analytic_p_right": 0.3999999984,
+      "analytic_mean_residence": 1.2000000032
+    },
+    {
+      "name": "symmetric_barrier_length=1",
+      "dimension": 6,
+      "source_weight": 1.0,
+      "hamiltonian_norm": 5.411474127809773,
+      "population_decay_gap": 0.023309831127046765,
+      "mean_residence": 2.999999999999999,
+      "capacity_bound_N_over_W": 6.0,
+      "fraction_of_capacity_bound": 0.49999999999999983,
+      "p_left": 0.5999999999999999,
+      "p_right": 0.3999999999999998,
+      "total_absorption_error": 3.3306690738754696e-16,
+      "covariance_eigenvalue_min": 0.2763932022500209,
+      "covariance_eigenvalue_max": 0.7236067977499787,
+      "lyapunov_residual_2norm": 3.7559950465140756e-16,
+      "exact_covariance_available": true,
+      "numerical_covariance_forward_error_2norm": 6.37617181813803e-14,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 0.04517463558433934,
+          "markov_bound_from_mean": 0.29999999999999993,
+          "right_absorption_remaining": 0.028107883028639438
+        },
+        {
+          "time": 100.0,
+          "survival": 0.003228646961762156,
+          "markov_bound_from_mean": 0.029999999999999992,
+          "right_absorption_remaining": 0.0018150989335188382
+        }
+      ]
+    },
+    {
+      "name": "symmetric_barrier_length=2",
+      "dimension": 8,
+      "source_weight": 1.0,
+      "hamiltonian_norm": 6.177628683262522,
+      "population_decay_gap": 0.0011282567273038302,
+      "mean_residence": 3.9999999999999987,
+      "capacity_bound_N_over_W": 8.0,
+      "fraction_of_capacity_bound": 0.49999999999999983,
+      "p_left": 0.5999999999999999,
+      "p_right": 0.3999999999999998,
+      "total_absorption_error": 3.3306690738754696e-16,
+      "covariance_eigenvalue_min": 0.2763932022500209,
+      "covariance_eigenvalue_max": 0.7236067977499787,
+      "lyapunov_residual_2norm": 3.7559950465140756e-16,
+      "exact_covariance_available": true,
+      "numerical_covariance_forward_error_2norm": 4.2764431816719633e-13,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 0.034248842866072354,
+          "markov_bound_from_mean": 0.39999999999999986,
+          "right_absorption_remaining": 0.017407798752511076
+        },
+        {
+          "time": 100.0,
+          "survival": 0.006159615831652008,
+          "markov_bound_from_mean": 0.03999999999999999,
+          "right_absorption_remaining": 0.0036279798289293383
+        }
+      ]
+    },
+    {
+      "name": "symmetric_barrier_length=3",
+      "dimension": 10,
+      "source_weight": 1.0,
+      "hamiltonian_norm": 6.500684558276187,
+      "population_decay_gap": 4.529047221288264e-05,
+      "mean_residence": 4.999999999999998,
+      "capacity_bound_N_over_W": 10.0,
+      "fraction_of_capacity_bound": 0.49999999999999983,
+      "p_left": 0.5999999999999999,
+      "p_right": 0.3999999999999998,
+      "total_absorption_error": 3.3306690738754696e-16,
+      "covariance_eigenvalue_min": 0.2763932022500209,
+      "covariance_eigenvalue_max": 0.7236067977499787,
+      "lyapunov_residual_2norm": 3.7559950465140756e-16,
+      "exact_covariance_available": true,
+      "numerical_covariance_forward_error_2norm": 3.0363283009667775e-12,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 0.036354470353878524,
+          "markov_bound_from_mean": 0.49999999999999983,
+          "right_absorption_remaining": 0.017418274297206385
+        },
+        {
+          "time": 100.0,
+          "survival": 0.008844436679804982,
+          "markov_bound_from_mean": 0.04999999999999998,
+          "right_absorption_remaining": 0.005153019572675976
+        }
+      ]
+    },
+    {
+      "name": "symmetric_barrier_length=4",
+      "dimension": 12,
+      "source_weight": 1.0,
+      "hamiltonian_norm": 6.665667985553668,
+      "population_decay_gap": 1.8119244856378914e-06,
+      "mean_residence": 5.999999999999998,
+      "capacity_bound_N_over_W": 12.0,
+      "fraction_of_capacity_bound": 0.49999999999999983,
+      "p_left": 0.5999999999999999,
+      "p_right": 0.3999999999999998,
+      "total_absorption_error": 3.3306690738754696e-16,
+      "covariance_eigenvalue_min": 0.2763932022500209,
+      "covariance_eigenvalue_max": 0.7236067977499787,
+      "lyapunov_residual_2norm": 3.7559950465140756e-16,
+      "exact_covariance_available": true,
+      "numerical_covariance_forward_error_2norm": 9.198098806887631e-11,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 0.03884296925577673,
+          "markov_bound_from_mean": 0.5999999999999999,
+          "right_absorption_remaining": 0.017782236578399106
+        },
+        {
+          "time": 100.0,
+          "survival": 0.01190537119337956,
+          "markov_bound_from_mean": 0.059999999999999984,
+          "right_absorption_remaining": 0.007693862255891765
+        }
+      ]
+    },
+    {
+      "name": "symmetric_barrier_length=5",
+      "dimension": 14,
+      "source_weight": 1.0,
+      "hamiltonian_norm": 6.760843936009718,
+      "population_decay_gap": 7.247754610373042e-08,
+      "mean_residence": 6.999999999999997,
+      "capacity_bound_N_over_W": 14.0,
+      "fraction_of_capacity_bound": 0.49999999999999983,
+      "p_left": 0.5999999999999999,
+      "p_right": 0.3999999999999998,
+      "total_absorption_error": 3.3306690738754696e-16,
+      "covariance_eigenvalue_min": 0.2763932022500209,
+      "covariance_eigenvalue_max": 0.7236067977499787,
+      "lyapunov_residual_2norm": 3.7559950465140756e-16,
+      "exact_covariance_available": true,
+      "numerical_covariance_forward_error_2norm": 6.916762610152899e-10,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 0.03927263728012705,
+          "markov_bound_from_mean": 0.6999999999999997,
+          "right_absorption_remaining": 0.017833408505138253
+        },
+        {
+          "time": 100.0,
+          "survival": 0.014662409600118819,
+          "markov_bound_from_mean": 0.06999999999999998,
+          "right_absorption_remaining": 0.009645169644153831
+        }
+      ]
+    },
+    {
+      "name": "symmetric_barrier_length=6",
+      "dimension": 16,
+      "source_weight": 1.0,
+      "hamiltonian_norm": 6.820594583882169,
+      "population_decay_gap": 2.89910279116512e-09,
+      "mean_residence": 7.999999999999997,
+      "capacity_bound_N_over_W": 16.0,
+      "fraction_of_capacity_bound": 0.49999999999999983,
+      "p_left": 0.5999999999999999,
+      "p_right": 0.3999999999999998,
+      "total_absorption_error": 3.3306690738754696e-16,
+      "covariance_eigenvalue_min": 0.2763932022500209,
+      "covariance_eigenvalue_max": 0.7236067977499787,
+      "lyapunov_residual_2norm": 3.7559950465140756e-16,
+      "exact_covariance_available": true,
+      "numerical_covariance_forward_error_2norm": 6.557370481681952e-08,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 0.03972777503265741,
+          "markov_bound_from_mean": 0.7999999999999997,
+          "right_absorption_remaining": 0.017901434586835824
+        },
+        {
+          "time": 100.0,
+          "survival": 0.01686657218258711,
+          "markov_bound_from_mean": 0.07999999999999997,
+          "right_absorption_remaining": 0.01111759594373888
+        }
+      ]
+    },
+    {
+      "name": "symmetric_barrier_length=7",
+      "dimension": 18,
+      "source_weight": 1.0,
+      "hamiltonian_norm": 6.860509719461266,
+      "population_decay_gap": 1.1596348328205691e-10,
+      "mean_residence": 8.999999999999998,
+      "capacity_bound_N_over_W": 18.0,
+      "fraction_of_capacity_bound": 0.4999999999999999,
+      "p_left": 0.5999999999999999,
+      "p_right": 0.3999999999999998,
+      "total_absorption_error": 3.3306690738754696e-16,
+      "covariance_eigenvalue_min": 0.2763932022500209,
+      "covariance_eigenvalue_max": 0.7236067977499787,
+      "lyapunov_residual_2norm": 3.7559950465140756e-16,
+      "exact_covariance_available": true,
+      "numerical_covariance_forward_error_2norm": 4.745886755825415e-06,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 0.04003611169012493,
+          "markov_bound_from_mean": 0.8999999999999998,
+          "right_absorption_remaining": 0.01794856244236659
+        },
+        {
+          "time": 100.0,
+          "survival": 0.0190327042996969,
+          "markov_bound_from_mean": 0.08999999999999998,
+          "right_absorption_remaining": 0.012367389327041355
+        }
+      ]
+    },
+    {
+      "name": "disordered_three_channel_g=1",
+      "dimension": 20,
+      "source_weight": 3.0,
+      "hamiltonian_norm": 2.81273243912321,
+      "population_decay_gap": 0.03473786424603501,
+      "mean_residence": 3.3552184328245875,
+      "capacity_bound_N_over_W": 6.666666666666667,
+      "fraction_of_capacity_bound": 0.5032827649236882,
+      "p_left": 0.6915216401689611,
+      "p_right": 0.30847835983103933,
+      "total_absorption_error": 4.440892098500626e-16,
+      "covariance_eigenvalue_min": 0.06975758442716051,
+      "covariance_eigenvalue_max": 0.9406387979339418,
+      "lyapunov_residual_2norm": 6.6516828513113e-15,
+      "exact_covariance_available": false,
+      "numerical_covariance_forward_error_2norm": null,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 0.08786671397541146,
+          "markov_bound_from_mean": 0.33552184328245876,
+          "right_absorption_remaining": 0.03976572691430955
+        },
+        {
+          "time": 100.0,
+          "survival": 0.0002517106429266859,
+          "markov_bound_from_mean": 0.033552184328245874,
+          "right_absorption_remaining": 0.00010937622140506882
+        }
+      ]
+    },
+    {
+      "name": "disordered_three_channel_g=0.1",
+      "dimension": 20,
+      "source_weight": 3.0,
+      "hamiltonian_norm": 2.744702362455488,
+      "population_decay_gap": 0.00042762963008093855,
+      "mean_residence": 3.3563823247211904,
+      "capacity_bound_N_over_W": 6.666666666666667,
+      "fraction_of_capacity_bound": 0.5034573487081786,
+      "p_left": 0.6188694542345227,
+      "p_right": 0.3811305457654768,
+      "total_absorption_error": 5.551115123125783e-16,
+      "covariance_eigenvalue_min": 0.1483356389745422,
+      "covariance_eigenvalue_max": 0.8499593405885979,
+      "lyapunov_residual_2norm": 3.885086594169687e-15,
+      "exact_covariance_available": false,
+      "numerical_covariance_forward_error_2norm": null,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 0.023693480213230103,
+          "markov_bound_from_mean": 0.33563823247211905,
+          "right_absorption_remaining": 0.01136975684057071
+        },
+        {
+          "time": 100.0,
+          "survival": 0.0026590676440273932,
+          "markov_bound_from_mean": 0.0335638232472119,
+          "right_absorption_remaining": 0.0012337081735787527
+        }
+      ]
+    },
+    {
+      "name": "disordered_three_channel_g=0.01",
+      "dimension": 20,
+      "source_weight": 3.0,
+      "hamiltonian_norm": 2.7440760937289506,
+      "population_decay_gap": 4.305349341938937e-06,
+      "mean_residence": 3.3553410778831467,
+      "capacity_bound_N_over_W": 6.666666666666667,
+      "fraction_of_capacity_bound": 0.5033011616824721,
+      "p_left": 0.6180157314336913,
+      "p_right": 0.38198426856630857,
+      "total_absorption_error": 2.220446049250313e-16,
+      "covariance_eigenvalue_min": 0.14961110607086553,
+      "covariance_eigenvalue_max": 0.8486120346145188,
+      "lyapunov_residual_2norm": 4.907208126290001e-15,
+      "exact_covariance_available": false,
+      "numerical_covariance_forward_error_2norm": null,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 0.020099839149113875,
+          "markov_bound_from_mean": 0.33553410778831466,
+          "right_absorption_remaining": 0.009625438743350812
+        },
+        {
+          "time": 100.0,
+          "survival": 3.870911879694647e-05,
+          "markov_bound_from_mean": 0.03355341077883147,
+          "right_absorption_remaining": 1.79721752267247e-05
+        }
+      ]
+    },
+    {
+      "name": "disordered_three_channel_g=0.001",
+      "dimension": 20,
+      "source_weight": 3.0,
+      "hamiltonian_norm": 2.744069836335735,
+      "population_decay_gap": 4.3056471410360086e-08,
+      "mean_residence": 3.3553307448107965,
+      "capacity_bound_N_over_W": 6.666666666666667,
+      "fraction_of_capacity_bound": 0.5032996117216195,
+      "p_left": 0.6180071791739289,
+      "p_right": 0.3819928208260723,
+      "total_absorption_error": 1.1102230246251565e-15,
+      "covariance_eigenvalue_min": 0.14962362536853913,
+      "covariance_eigenvalue_max": 0.8485990975617864,
+      "lyapunov_residual_2norm": 4.8260118138957085e-15,
+      "exact_covariance_available": false,
+      "numerical_covariance_forward_error_2norm": null,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 0.020062929674489353,
+          "markov_bound_from_mean": 0.33553307448107966,
+          "right_absorption_remaining": 0.009607511439539881
+        },
+        {
+          "time": 100.0,
+          "survival": 3.88597150133838e-07,
+          "markov_bound_from_mean": 0.033553307448107965,
+          "right_absorption_remaining": 1.8042139413447127e-07
+        }
+      ]
+    },
+    {
+      "name": "nonsymmetric_barrier_length=1",
+      "dimension": 14,
+      "source_weight": 3.0,
+      "hamiltonian_norm": 5.499911869658192,
+      "population_decay_gap": 0.0015445776081097762,
+      "mean_residence": 2.4083062424133588,
+      "capacity_bound_N_over_W": 4.666666666666667,
+      "fraction_of_capacity_bound": 0.5160656233742912,
+      "p_left": 0.6170032040465857,
+      "p_right": 0.38299679595341596,
+      "total_absorption_error": 1.7763568394002505e-15,
+      "covariance_eigenvalue_min": 0.14150181222971894,
+      "covariance_eigenvalue_max": 0.9574712266470163,
+      "lyapunov_residual_2norm": 1.0089856253754861e-14,
+      "exact_covariance_available": false,
+      "numerical_covariance_forward_error_2norm": null,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 0.022934345509719557,
+          "markov_bound_from_mean": 0.2408306242413359,
+          "right_absorption_remaining": 0.011466148521472179
+        },
+        {
+          "time": 100.0,
+          "survival": 0.0005548073497808815,
+          "markov_bound_from_mean": 0.024083062424133588,
+          "right_absorption_remaining": 0.00011753400182624954
+        }
+      ]
+    },
+    {
+      "name": "nonsymmetric_barrier_length=2",
+      "dimension": 15,
+      "source_weight": 3.0,
+      "hamiltonian_norm": 6.281881853911203,
+      "population_decay_gap": 0.00042171243818067694,
+      "mean_residence": 2.7111846047221775,
+      "capacity_bound_N_over_W": 5.0,
+      "fraction_of_capacity_bound": 0.5422369209444355,
+      "p_left": 0.6153966748401926,
+      "p_right": 0.3846033251598069,
+      "total_absorption_error": 5.551115123125783e-16,
+      "covariance_eigenvalue_min": 0.14962464652475377,
+      "covariance_eigenvalue_max": 0.9692998565158022,
+      "lyapunov_residual_2norm": 6.03000574668963e-15,
+      "exact_covariance_available": false,
+      "numerical_covariance_forward_error_2norm": null,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 0.02052658067705768,
+          "markov_bound_from_mean": 0.27111846047221777,
+          "right_absorption_remaining": 0.009821382637329274
+        },
+        {
+          "time": 100.0,
+          "survival": 0.0008629968773909601,
+          "markov_bound_from_mean": 0.027111846047221774,
+          "right_absorption_remaining": 0.00012459583035505915
+        }
+      ]
+    },
+    {
+      "name": "nonsymmetric_barrier_length=3",
+      "dimension": 16,
+      "source_weight": 3.0,
+      "hamiltonian_norm": 6.586913802582445,
+      "population_decay_gap": 5.320498241995485e-05,
+      "mean_residence": 3.0167940483390585,
+      "capacity_bound_N_over_W": 5.333333333333333,
+      "fraction_of_capacity_bound": 0.5656488840635735,
+      "p_left": 0.6153515952099334,
+      "p_right": 0.3846484047900667,
+      "total_absorption_error": 0.0,
+      "covariance_eigenvalue_min": 0.1496732119252968,
+      "covariance_eigenvalue_max": 0.97258465739641,
+      "lyapunov_residual_2norm": 1.0524112832281872e-14,
+      "exact_covariance_available": false,
+      "numerical_covariance_forward_error_2norm": null,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 0.020575091157394032,
+          "markov_bound_from_mean": 0.3016794048339059,
+          "right_absorption_remaining": 0.009762849220837143
+        },
+        {
+          "time": 100.0,
+          "survival": 0.0009713011747318899,
+          "markov_bound_from_mean": 0.030167940483390585,
+          "right_absorption_remaining": 8.831839929502272e-05
+        }
+      ]
+    },
+    {
+      "name": "nonsymmetric_barrier_length=4",
+      "dimension": 17,
+      "source_weight": 3.0,
+      "hamiltonian_norm": 6.718218556314415,
+      "population_decay_gap": 2.3337876627691986e-06,
+      "mean_residence": 3.319802606669807,
+      "capacity_bound_N_over_W": 5.666666666666667,
+      "fraction_of_capacity_bound": 0.5858475188240836,
+      "p_left": 0.6153535211923954,
+      "p_right": 0.38464647880760655,
+      "total_absorption_error": 1.9984014443252818e-15,
+      "covariance_eigenvalue_min": 0.14967236089120117,
+      "covariance_eigenvalue_max": 0.9738347020750714,
+      "lyapunov_residual_2norm": 1.2199378406341493e-14,
+      "exact_covariance_available": false,
+      "numerical_covariance_forward_error_2norm": null,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 0.02075686280738677,
+          "markov_bound_from_mean": 0.3319802606669807,
+          "right_absorption_remaining": 0.009807739894666932
+        },
+        {
+          "time": 100.0,
+          "survival": 0.0010831058010794083,
+          "markov_bound_from_mean": 0.03319802606669807,
+          "right_absorption_remaining": 0.00010681719911022282
+        }
+      ]
+    },
+    {
+      "name": "nonsymmetric_barrier_length=5",
+      "dimension": 18,
+      "source_weight": 3.0,
+      "hamiltonian_norm": 6.780648543736014,
+      "population_decay_gap": 1.0482824600227517e-07,
+      "mean_residence": 3.6217795222318396,
+      "capacity_bound_N_over_W": 6.0,
+      "fraction_of_capacity_bound": 0.6036299203719733,
+      "p_left": 0.6153541696280582,
+      "p_right": 0.3846458303719416,
+      "total_absorption_error": 2.220446049250313e-16,
+      "covariance_eigenvalue_min": 0.14967181543972313,
+      "covariance_eigenvalue_max": 0.9743985248716973,
+      "lyapunov_residual_2norm": 1.1075133573255174e-14,
+      "exact_covariance_available": false,
+      "numerical_covariance_forward_error_2norm": null,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 0.020745268668740754,
+          "markov_bound_from_mean": 0.36217795222318394,
+          "right_absorption_remaining": 0.009802161646404746
+        },
+        {
+          "time": 100.0,
+          "survival": 0.001143581845948615,
+          "markov_bound_from_mean": 0.0362177952223184,
+          "right_absorption_remaining": 0.00011904012142623636
+        }
+      ]
+    },
+    {
+      "name": "nonsymmetric_barrier_length=6",
+      "dimension": 19,
+      "source_weight": 3.0,
+      "hamiltonian_norm": 6.816926139679863,
+      "population_decay_gap": 4.637428655389287e-09,
+      "mean_residence": 3.925172442865172,
+      "capacity_bound_N_over_W": 6.333333333333333,
+      "fraction_of_capacity_bound": 0.6197640699260798,
+      "p_left": 0.6153542648852711,
+      "p_right": 0.3846457351147377,
+      "total_absorption_error": 8.881784197001252e-15,
+      "covariance_eigenvalue_min": 0.14967170588121348,
+      "covariance_eigenvalue_max": 0.9747176128893311,
+      "lyapunov_residual_2norm": 1.1505254199765693e-14,
+      "exact_covariance_available": false,
+      "numerical_covariance_forward_error_2norm": null,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 0.02069036831972545,
+          "markov_bound_from_mean": 0.3925172442865172,
+          "right_absorption_remaining": 0.009790293615479667
+        },
+        {
+          "time": 100.0,
+          "survival": 0.001172797953381744,
+          "markov_bound_from_mean": 0.03925172442865172,
+          "right_absorption_remaining": 0.00012478263665125657
+        }
+      ]
+    },
+    {
+      "name": "nonsymmetric_barrier_length=7",
+      "dimension": 20,
+      "source_weight": 3.0,
+      "hamiltonian_norm": 6.845607343052148,
+      "population_decay_gap": 1.9685215277605842e-10,
+      "mean_residence": 4.23098683093539,
+      "capacity_bound_N_over_W": 6.666666666666667,
+      "fraction_of_capacity_bound": 0.6346480246403086,
+      "p_left": 0.6153542748980857,
+      "p_right": 0.384645725101916,
+      "total_absorption_error": 1.7763568394002505e-15,
+      "covariance_eigenvalue_min": 0.1496716889267707,
+      "covariance_eigenvalue_max": 0.9749655722643804,
+      "lyapunov_residual_2norm": 1.1442015579846727e-14,
+      "exact_covariance_available": false,
+      "numerical_covariance_forward_error_2norm": null,
+      "finite_time_checks": [
+        {
+          "time": 10.0,
+          "survival": 0.02071629398684148,
+          "markov_bound_from_mean": 0.42309868309353904,
+          "right_absorption_remaining": 0.009803596198403715
+        },
+        {
+          "time": 100.0,
+          "survival": 0.0011961090254090263,
+          "markov_bound_from_mean": 0.042309868309353904,
+          "right_absorption_remaining": 0.00012826490850019985
+        }
+      ]
+    }
+  ]
+}

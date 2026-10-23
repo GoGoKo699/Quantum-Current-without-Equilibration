@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "purpose": "Small finite-matrix construction checks, not a gate benchmark",
+  "tau": 0.21619761389301373,
+  "steps": 3,
+  "checks": [
+    {
+      "quadrature_nodes": 2,
+      "taylor_degree": 2,
+      "gram_error": 0.004159019275819617,
+      "unitary_error": 2.2075020931259163e-15,
+      "oaa_formula_error": 1.642215199920525e-15,
+      "maximum_failure_probability": 1.2991066100469157e-05,
+      "history_norm_error": 4.440892098500626e-16,
+      "reused_workspace_residual": 0.0,
+      "history_inverse_error": 3.650284943653257e-15,
+      "history_vs_kraus_error": 0.0,
+      "physical_right_probability": 0.04337113463188386,
+      "compiled_right_probability": 0.04381597453288755,
+      "physical_bias": 0.0004448399010036838
+    },
+    {
+      "quadrature_nodes": 4,
+      "taylor_degree": 5,
+      "gram_error": 3.5152309885015556e-07,
+      "unitary_error": 3.924755714697387e-15,
+      "oaa_formula_error": 1.5621212986210721e-15,
+      "maximum_failure_probability": 9.267637767055056e-14,
+      "history_norm_error": 1.3322676295501878e-15,
+      "reused_workspace_residual": 0.0,
+      "history_inverse_error": 4.49841700803328e-15,
+      "history_vs_kraus_error": 0.0,
+      "physical_right_probability": 0.04337113463188386,
+      "compiled_right_probability": 0.04337121207947379,
+      "physical_bias": 7.744758992456191e-08
+    },
+    {
+      "quadrature_nodes": 6,
+      "taylor_degree": 8,
+      "gram_error": 3.982646222950506e-12,
+      "unitary_error": 3.108865287692906e-15,
+      "oaa_formula_error": 1.967924919023378e-15,
+      "maximum_failure_probability": 1.1900942367706744e-23,
+      "history_norm_error": 2.6645352591003757e-15,
+      "reused_workspace_residual": 0.0,
+      "history_inverse_error": 4.566153046692058e-15,
+      "history_vs_kraus_error": 6.938893903907228e-18,
+      "physical_right_probability": 0.04337113463188386,
+      "compiled_right_probability": 0.043371134634382275,
+      "physical_bias": 2.4984112001469327e-12
+    }
+  ]
+}
