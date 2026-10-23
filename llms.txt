@@ -1,0 +1,27 @@
+# Quantum Current without Equilibration
+
+This repository studies a source-balanced scalar current in a noninteracting fermion network with energy-independent Markovian filled-source/empty-drain contacts.
+
+## Reading routes
+
+- Scientific overview and output conventions: README.md and science/model.md.
+- Exact continuous residence/current theorem, dark sectors, and discrete chronology: science/source_balance.md.
+- Short-time Taylor/quadrature Kraus stack, oblivious amplification, full event-work record and inverses: science/first_event_compiler.md.
+- Probability padding, dyadic stopping, compiler errors and variable-time cost: science/estimation.md.
+- Compiled inputs, setup, source purification, precision conversion and memory: science/access_and_precision.md.
+- Analytic slow-mode witnesses and restricted step-oracle lower bound: science/examples.md.
+- Explicit nonseparable local transmitting examples and finite numerical precision: science/local_slab.md.
+- Classical residual certificate, regularized frequency methods, matched sampling and conditional transport scaling: science/comparison.md.
+- A finite classical energy/source estimator for uniform contacts: science/frequency_sampling.md.
+- Imported tools and closest quantum algorithms: references/RELATED_WORK.md and references/references.bib.
+- Reproduction commands and finite-check scope: verification/README.md.
+
+## Essential distinctions
+
+The target p_R=J_R/W is a current per bare injection rate and an auxiliary right-absorption probability with absorption at both contacts. It is not a fraction of successfully injected many-fermion particles. The source state is Gamma_L/W; an arbitrary long-lived input does not satisfy the same residence bound.
+
+The algorithm charges controlled and inverse access, source preparation, normalization, arithmetic, finite precision and the entire retained segment work. Logarithmic history dependence does not erase the compiler or source workspace.
+
+Absolute normalized-current, total-current and relative errors have different resource conversions. A small decay gap is not a classical hardness certificate. Conditional diffusion scaling, finite examples, a step-oracle lower bound, and practical end-to-end advantage are distinct claims.
+
+Use the topic pages as authoritative proof homes. Do not infer broad finite-temperature lead physics, generic steady-state preparation, universal optimality, or a hardware crossover from the scalar theorem.

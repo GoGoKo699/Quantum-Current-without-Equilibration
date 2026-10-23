@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "continuous_dark_sector": {
+    "dimension": 5,
+    "bright_dimension": 3,
+    "full_lyapunov_residual": 9.40133687077974e-16,
+    "source_plus_drain_covariance_minus_bright_projector": 1.5745898799219474e-15,
+    "weighted_residence_sum_error": 2.220446049250313e-15,
+    "source_dark_weight": 0.0,
+    "absorption_normalization_error": 8.881784197001252e-16,
+    "dark_initial_covariance_change": 0.8460903563207663,
+    "dark_initial_lead_current": 0.0,
+    "mean_source_residence": 1.959815687922025,
+    "bright_source_capacity_bound": 3.333333333333333
+  },
+  "discrete_passivity": {
+    "dimension": 4,
+    "bright_dimension": 3,
+    "full_spectral_radius": 1.0,
+    "nonnormality_commutator_norm": 0.2678338613631955,
+    "finite_passivity_telescoping_error": 1.6201137897765285e-16,
+    "full_stein_residual": 1.2680753267951135e-16,
+    "source_plus_drain_covariance_error": 2.8862666074113135e-16,
+    "total_absorption_error": 2.220446049250313e-16,
+    "mean_steps": 3.1756187065694745,
+    "bright_capacity_bound": 4.6875
+  }
+}

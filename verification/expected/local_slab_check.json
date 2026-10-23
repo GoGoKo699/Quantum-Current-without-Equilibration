@@ -1,0 +1,144 @@
+{
+  "status": "passed",
+  "meaning": "finite equation checks only; no diffusion law or computational advantage established",
+  "rows": [
+    {
+      "L": 2,
+      "barrier_length": 1,
+      "N": 10,
+      "W": 4.0,
+      "p_right": 0.39237295489069823,
+      "mean": 1.1620657163672146,
+      "S": 2.5,
+      "population_gap": 0.022431677677343793,
+      "residual_current_fraction_certificate": 2.263064359367952e-15
+    },
+    {
+      "L": 3,
+      "barrier_length": 1,
+      "N": 29,
+      "W": 9.0,
+      "p_right": 0.391955655587495,
+      "mean": 1.614669141715923,
+      "S": 3.2222222222222223,
+      "population_gap": 0.010850464614945095,
+      "residual_current_fraction_certificate": 5.119098133359779e-15
+    },
+    {
+      "L": 4,
+      "barrier_length": 1,
+      "N": 66,
+      "W": 16.0,
+      "p_right": 0.39122455758959473,
+      "mean": 2.050640265990764,
+      "S": 4.125,
+      "population_gap": 0.017479451685647098,
+      "residual_current_fraction_certificate": 9.66471108481456e-15
+    },
+    {
+      "L": 3,
+      "barrier_length": 2,
+      "N": 30,
+      "W": 9.0,
+      "p_right": 0.39193410321705396,
+      "mean": 1.6706327528166511,
+      "S": 3.3333333333333335,
+      "population_gap": 0.000432107181923985,
+      "residual_current_fraction_certificate": 6.561103424085683e-15
+    },
+    {
+      "L": 3,
+      "barrier_length": 3,
+      "N": 31,
+      "W": 9.0,
+      "p_right": 0.3918104052855634,
+      "mean": 1.7263921067381873,
+      "S": 3.4444444444444446,
+      "population_gap": 1.7895724862218304e-05,
+      "residual_current_fraction_certificate": 6.382274429789109e-15
+    },
+    {
+      "L": 3,
+      "barrier_length": 4,
+      "N": 32,
+      "W": 9.0,
+      "p_right": 0.39177895539948476,
+      "mean": 1.7822410959613424,
+      "S": 3.5555555555555554,
+      "population_gap": 7.089411940793833e-07,
+      "residual_current_fraction_certificate": 6.5682013200728784e-15
+    },
+    {
+      "L": 3,
+      "barrier_length": 5,
+      "N": 33,
+      "W": 9.0,
+      "p_right": 0.39177734194875646,
+      "mean": 1.8380562143423016,
+      "S": 3.6666666666666665,
+      "population_gap": 2.889212223245745e-08,
+      "residual_current_fraction_certificate": 7.572264810002537e-15
+    },
+    {
+      "L": 3,
+      "barrier_length": 6,
+      "N": 34,
+      "W": 9.0,
+      "p_right": 0.3917792428911399,
+      "mean": 1.8939612843334916,
+      "S": 3.7777777777777777,
+      "population_gap": 1.136921861939064e-09,
+      "residual_current_fraction_certificate": 7.413008773879225e-15
+    }
+  ],
+  "adjoint_effect_min": 0.1840181647893685,
+  "adjoint_effect_max": 0.8179624103856842,
+  "residual_certificates": [
+    {
+      "case": "indefinite",
+      "current_error": -0.0008432050716304373,
+      "dual_error": -0.0008432050716196054,
+      "identity_residual": 1.0831938644650929e-14,
+      "error_lower_bound": -0.8781412000015963,
+      "error_upper_bound": 0.8835455968027773
+    },
+    {
+      "case": "finite_time",
+      "current_error": 0.03273034048457585,
+      "dual_error": 0.032730340484585986,
+      "identity_residual": 1.013772399360846e-14,
+      "error_lower_bound": -2.1606905961791037e-14,
+      "error_upper_bound": 0.06531359062701912
+    }
+  ],
+  "magnetotransport": [
+    {
+      "barrier_length": 1,
+      "flux_over_pi": 0.0,
+      "p_right": 0.391955655587495,
+      "population_gap": 0.010850464614945095,
+      "residual_current_fraction_certificate": 5.119098133359779e-15
+    },
+    {
+      "barrier_length": 1,
+      "flux_over_pi": 0.5,
+      "p_right": 0.2592415901658404,
+      "population_gap": 0.010905355998671595,
+      "residual_current_fraction_certificate": 6.3221319053989795e-15
+    },
+    {
+      "barrier_length": 6,
+      "flux_over_pi": 0.0,
+      "p_right": 0.3917792428911399,
+      "population_gap": 1.136921861939064e-09,
+      "residual_current_fraction_certificate": 7.413008773879225e-15
+    },
+    {
+      "barrier_length": 6,
+      "flux_over_pi": 0.5,
+      "p_right": 0.25828825061528465,
+      "population_gap": 1.4872460645361915e-09,
+      "residual_current_fraction_certificate": 7.920766266082069e-15
+    }
+  ]
+}
