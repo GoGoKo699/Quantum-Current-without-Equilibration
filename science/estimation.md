@@ -4,7 +4,7 @@
 
 Let a one-particle absorption experiment start in a supplied purification of
 $`\rho_L=\Gamma_L/W`$, with $`A=-ih-\Gamma/2`$,
-$`\Gamma=\Gamma_L+\Gamma_R`$, and $`W=\operatorname{Tr}\Gamma_L>0`$.
+$`\Gamma=\Gamma_L+\Gamma_R`$, and $`W=\mathrm{Tr}\Gamma_L>0`$.
 Suppose its mean exit time obeys $`\mathbb E\tau\le S`$, where the source-balance
 theorem supplies $`S=N/W`$. The aim is one number: the probability $`p_R`$ of
 right absorption.

@@ -9,9 +9,9 @@ Take real $`g`$ and
 ```math
 h_g=\begin{pmatrix}0&1&g\\1&0&0\\g&0&0\end{pmatrix},
 \quad
-\Gamma_L=\operatorname{diag}(1,0,0),
+\Gamma_L=\mathrm{diag}(1,0,0),
 \quad
-\Gamma_R=\operatorname{diag}(0,1,0).
+\Gamma_R=\mathrm{diag}(0,1,0).
 ```
 
 Here $`W=1`$. For every $`g\ne0`$, the full space is source reachable, all eigenvalues of $`A_g=-ih_g-(\Gamma_L+\Gamma_R)/2`$ have negative real part, and its source-driven covariance is
@@ -44,7 +44,7 @@ The characteristic equation is
 Its slow root satisfies $`\lambda_{\mathrm{slow}}=-2g^2/5+O(g^4)`$, so the slow population-decay rate is
 
 ```math
-\Delta_g=-2\operatorname{Re}\lambda_{\mathrm{slow}}
+\Delta_g=-2\mathrm{Re}\lambda_{\mathrm{slow}}
 =\frac45g^2+O(g^4).
 ```
 
@@ -106,7 +106,7 @@ Fix an integer $`L\ge4`$, set $`m=L-2`$, and use $`N=2L`$ one-particle basis mod
 ```math
 H=\frac1{\sqrt2}
 \begin{pmatrix}1&1\\1&-1\end{pmatrix},
-\qquad P_\theta=\operatorname{diag}(1,e^{i\theta}).
+\qquad P_\theta=\mathrm{diag}(1,e^{i\theta}).
 ```
 
 Define the unitary step by
@@ -131,12 +131,12 @@ B_R=|0,1\rangle\langle0,1|,\qquad
 D=I-B_L-B_R.
 ```
 
-Thus $`D^2=D`$, $`B_L+B_R=I-D^2`$, and $`A_\theta=DU_\theta`$ is the no-exit step. The source is $`\rho_{\mathrm{in}}=B_L`$ and $`W=\operatorname{Tr}B_L=1`$. As always for this step ordering, the measured exit effects are $`E_r=U_\theta^\dagger B_rU_\theta`$.
+Thus $`D^2=D`$, $`B_L+B_R=I-D^2`$, and $`A_\theta=DU_\theta`$ is the no-exit step. The source is $`\rho_{\mathrm{in}}=B_L`$ and $`W=\mathrm{Tr}B_L=1`$. As always for this step ordering, the measured exit effects are $`E_r=U_\theta^\dagger B_rU_\theta`$.
 
 The particle starts at clock zero, is split by the first step, accumulates $`m`$ phases, and is recombined on its first return to clock zero. No intermediate clock value is absorbing. Therefore
 
 ```math
-\tau=L\quad\hbox{with probability one},\qquad
+\tau=L\quad\text{with probability one},\qquad
 \mathbb E\tau=L.
 ```
 

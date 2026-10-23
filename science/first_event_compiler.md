@@ -122,6 +122,6 @@ $`O(\log n_*+b_{\rm work})`$ qubits, alongside one reusable
 $`b_{\rm work}`$-qubit segment register. Taylor products may themselves require
 $`O(d b_B)`$ block-encoding ancillas; these are included in
 $`b_{\rm work}`$, rather than assumed free. A succinct input with
-$`b_B=\operatorname{polylog}N`$ consequently has polynomially logarithmic
+$`b_B=\mathrm{polylog}N`$ consequently has polynomially logarithmic
 workspace. Source-purification qubits are additional and retained.
 

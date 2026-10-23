@@ -8,7 +8,7 @@ Let
 
 ```math
  A=-ih-\Gamma/2,\qquad \Gamma=\Gamma_L+\Gamma_R,
- \quad W=\operatorname{Tr}\Gamma_L>0,
+ \quad W=\mathrm{Tr}\Gamma_L>0,
  \quad S=N/W.
 ```
 
@@ -16,7 +16,7 @@ The source-driven covariance and current fraction in the [physical model](model.
 
 ```math
  C=\int_0^\infty e^{At}\Gamma_L e^{A^\dagger t}\,dt,
- \qquad J_R=\operatorname{Tr}(\Gamma_R C),
+ \qquad J_R=\mathrm{Tr}(\Gamma_R C),
  \qquad p=J_R/W.
 ```
 
@@ -50,7 +50,7 @@ The integral is well defined on the dissipative sector and vanishes on the reduc
 
 ```math
  0\le E_R\le I,\qquad A^\dagger E_R+E_R A=-\Gamma_R,
- \qquad J_R=\operatorname{Tr}(E_R\Gamma_L).
+ \qquad J_R=\mathrm{Tr}(E_R\Gamma_L).
 ```
 
 For any Hermitian approximation $`\widehat C`$, form its Lyapunov residual
@@ -62,22 +62,22 @@ For any Hermitian approximation $`\widehat C`$, form its Lyapunov residual
 A trace calculation gives the exact scalar error identity
 
 ```math
- J_R-\operatorname{Tr}(\Gamma_R\widehat C)
- =\operatorname{Tr}(E_RR).
+ J_R-\mathrm{Tr}(\Gamma_R\widehat C)
+ =\mathrm{Tr}(E_RR).
 ```
 
 Consequently, writing $`R=R_+-R_-`$ for its positive and negative parts,
 
 ```math
- -\operatorname{Tr}R_-
- \le J_R-\widehat J_R\le\operatorname{Tr}R_+,
+ -\mathrm{Tr}R_-
+ \le J_R-\widehat J_R\le\mathrm{Tr}R_+,
  \qquad
  |p-\widehat p|\le
- \frac{\max\{\operatorname{Tr}R_+,\operatorname{Tr}R_-\}}W
+ \frac{\max\{\mathrm{Tr}R_+,\mathrm{Tr}R_-\}}W
  \le\frac{\|R\|_1}W.
 ```
 
-This certificate uses a trace/nuclear norm, not merely the operator-norm residual. The always valid weaker bound is $`N\|R\|/W`$. A residual of low rank can be evaluated through a small Gram matrix rather than an $`N\times N`$ eigendecomposition. If $`R\ge0`$, as for standard positive-residual Gramian approximations, $`\widehat J_R`$ is a lower bound and the interval width is $`\operatorname{Tr}R`$. These facts do not promise rapid low-rank convergence, but they prevent an unfair inference that a small dissipative gap necessarily requires inverse-gap accuracy to certify the current. Finite-time propagation is the special case $`R=e^{AT}\Gamma_L e^{A^\dagger T}`$.
+This certificate uses a trace/nuclear norm, not merely the operator-norm residual. The always valid weaker bound is $`N\|R\|/W`$. A residual of low rank can be evaluated through a small Gram matrix rather than an $`N\times N`$ eigendecomposition. If $`R\ge0`$, as for standard positive-residual Gramian approximations, $`\widehat J_R`$ is a lower bound and the interval width is $`\mathrm{Tr}R`$. These facts do not promise rapid low-rank convergence, but they prevent an unfair inference that a small dissipative gap necessarily requires inverse-gap accuracy to certify the current. Finite-time propagation is the special case $`R=e^{AT}\Gamma_L e^{A^\dagger T}`$.
 
 The certificate is an adjoint/observable-weighted residual argument. It is not a novel general Lyapunov solver. Low-rank ADI and rational Krylov methods remain serious competitors; source rank is contact area, but the stationary covariance can still have extensive rank. Low rank of the source does not guarantee low rank of the answer. See Li and White, *Low Rank Solution of Lyapunov Equations*, SIAM J. Matrix Anal. Appl. **24**, 260–280 (2002), DOI [10.1137/S0895479801384937](https://doi.org/10.1137/S0895479801384937), and Wolf and Panzer, [arXiv:1309.3985](https://arxiv.org/abs/1309.3985), for the established ADI/model-reduction setting.
 
@@ -109,7 +109,7 @@ On the active sector, Parseval gives
 
 ```math
  J_R=\frac1{2\pi}\int_{-\infty}^{\infty}
- \operatorname{Tr}\!\left[
+ \mathrm{Tr}\!\left[
  \Gamma_R G(E)\Gamma_LG(E)^\dagger\right]dE,
  \qquad G(E)=(E I-h+i\Gamma/2)^{-1}.
 ```

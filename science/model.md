@@ -9,7 +9,7 @@ There are $`N`$ one-particle orbitals, a Hermitian one-particle Hamiltonian $`h`
 ```math
 \Gamma=\Gamma_L+\Gamma_R,\quad
 A=-ih-\Gamma/2,\quad K(t)=e^{At},\quad
-W=\operatorname{Tr}\Gamma_L>0.
+W=\mathrm{Tr}\Gamma_L>0.
 ```
 
 Units have $`\hbar=1`$. Left contacts inject fermions into empty orbitals; right contacts extract them. These are energy-independent, fully occupied left and empty right Markovian reservoirs. With covariance convention $`C_{xy}=\langle c_y^\dagger c_x\rangle`$, the standard quadratic Lindblad equation gives
@@ -27,7 +27,7 @@ C_L=\int_0^\infty K(t)\Gamma_LK(t)^\dagger\,dt.
 The requested scalar is the current per bare injection rate,
 
 ```math
-p_R=J_R/W,\qquad J_R=\operatorname{Tr}(\Gamma_R C_L).
+p_R=J_R/W,\qquad J_R=\mathrm{Tr}(\Gamma_R C_L).
 ```
 
 An estimate $`\widehat p_R`$ must satisfy $`|\widehat p_R-p_R|\le\epsilon`$, with success probability at least $`2/3`$. The theorem covers $`0<\epsilon<1/4`$; larger error is trivial. Confidence amplification is charged logarithmically. For total-current error $`\eta`$, use $`\epsilon=\eta/W`$.
@@ -37,8 +37,8 @@ An estimate $`\widehat p_R`$ must satisfy $`|\widehat p_R-p_R|\le\epsilon`$, wit
 Prepare the one-particle mixed state $`\rho_L=\Gamma_L/W`$. Evolve it with no-jump propagator $`K(t)`$ and absorb at **both** contacts. The right-exit density and survival probability are
 
 ```math
-f_R(t)=\operatorname{Tr}(\Gamma_R K(t)\rho_LK(t)^\dagger),\qquad
-s(t)=\operatorname{Tr}(K(t)\rho_LK(t)^\dagger).
+f_R(t)=\mathrm{Tr}(\Gamma_R K(t)\rho_LK(t)^\dagger),\qquad
+s(t)=\mathrm{Tr}(K(t)\rho_LK(t)^\dagger).
 ```
 
 Then $`p_R=\int_0^\infty f_R(t)dt`$. This auxiliary process includes reflection into the left contact. Its initial preparation is an injection attempt, whereas successful injections in the many-fermion steady state are Pauli blocked. Thus $`p_R`$ is not a fraction of successfully injected physical particles that subsequently leave right. The [source-balance proof](source_balance.md) establishes normalization, current equivalence, and a finite mean exit time without requiring a positive global decay gap.

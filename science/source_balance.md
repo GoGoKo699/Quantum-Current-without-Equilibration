@@ -5,7 +5,7 @@ Consider an $`N`$-mode number-conserving quadratic fermion system with Hermitian
 ```math
 \Gamma=\Gamma_L+\Gamma_R,\qquad
 A=-ih-\Gamma/2,\qquad K(t)=e^{At},\qquad
-W=\operatorname{Tr}\Gamma_L>0.
+W=\mathrm{Tr}\Gamma_L>0.
 ```
 
 With covariance convention $`C_{ij}=\langle c_j^\dagger c_i\rangle`$, the standard quadratic Lindblad equation is
@@ -44,25 +44,25 @@ Consider an auxiliary one-particle absorption process whose initial density matr
 The particle evolves without absorption by $`K(t)`$ and can be absorbed at either contact. Absorption occurs with probability one, its right-contact probability is
 
 ```math
-p_R=\frac{\operatorname{Tr}(\Gamma_RC_L)}{W},
+p_R=\frac{\mathrm{Tr}(\Gamma_RC_L)}{W},
 ```
 
 and its mean residence time satisfies
 
 ```math
 \mathbb E\tau
-=\frac{\operatorname{Tr}C_L}{W}
+=\frac{\mathrm{Tr}C_L}{W}
 \le\frac{\dim\mathcal R_L}{W}
 \le\frac{\dim\mathcal B}{W}
 \le\frac NW.
 ```
 
-Here $`\mathcal R_L=\operatorname{span}\{A^k\operatorname{ran}\Gamma_L:0\le k<N\}`$ is the source-reachable subspace. Its dimension is a mathematical sharpening; computing it is an additional task unless the input supplies it.
+Here $`\mathcal R_L=\mathrm{span}\{A^k\mathrm{ran}\Gamma_L:0\le k<N\}`$ is the source-reachable subspace. Its dimension is a mathematical sharpening; computing it is an additional task unless the input supplies it.
 
 The steady right current of the fermionic system is
 
 ```math
-J_R=\operatorname{Tr}(\Gamma_RC_L)=Wp_R.
+J_R=\mathrm{Tr}(\Gamma_RC_L)=Wp_R.
 ```
 
 This current is well-defined even when the full covariance does not converge because undamped dark coherences keep rotating. No positive global dissipative gap, normality of $`A`$, or unique full-system steady state is required.
@@ -92,7 +92,7 @@ Each $`C_r(T)`$ is increasing in the positive-semidefinite order and bounded abo
 Because $`h`$ is Hermitian and $`\Gamma\succeq0`$, $`\mathcal D`$ reduces both operators: $`h`$ preserves $`\mathcal D`$ and its orthogonal complement, while $`\Gamma`$ vanishes on $`\mathcal D`$. On $`\mathcal D`$, $`K(t)`$ is unitary. Every eigenvalue of $`A`$ has nonpositive real part. If $`Av=i\omega v`$, then
 
 ```math
-0=\operatorname{Re}\langle v,Av\rangle
+0=\mathrm{Re}\langle v,Av\rangle
 =-\langle v,\Gamma v\rangle/2,
 ```
 
@@ -115,16 +115,16 @@ which proves the claimed global Lyapunov equation. The range of every integrand 
 The auxiliary survival probability and lead-resolved absorption densities are
 
 ```math
-q(t)=\operatorname{Tr}\bigl(K(t)\rho_{\mathrm{in}}K(t)^\dagger\bigr),
+q(t)=\mathrm{Tr}\bigl(K(t)\rho_{\mathrm{in}}K(t)^\dagger\bigr),
 \qquad
-f_r(t)=\operatorname{Tr}\bigl(\Gamma_rK(t)\rho_{\mathrm{in}}K(t)^\dagger\bigr).
+f_r(t)=\mathrm{Tr}\bigl(\Gamma_rK(t)\rho_{\mathrm{in}}K(t)^\dagger\bigr).
 ```
 
-They obey $`-q'(t)=f_L(t)+f_R(t)`$. Since the source is supported on $`\mathcal B`$, $`q(0)=1`$ and $`q(\infty)=0`$. Integration gives $`p_L+p_R=1`$, $`p_r=\operatorname{Tr}(\Gamma_rC_L)/W`$, and
+They obey $`-q'(t)=f_L(t)+f_R(t)`$. Since the source is supported on $`\mathcal B`$, $`q(0)=1`$ and $`q(\infty)=0`$. Integration gives $`p_L+p_R=1`$, $`p_r=\mathrm{Tr}(\Gamma_rC_L)/W`$, and
 
 ```math
 \mathbb E\tau=\int_0^\infty q(t)\,dt
-=\operatorname{Tr}C_L/W.
+=\mathrm{Tr}C_L/W.
 ```
 
 Finally, for arbitrary physical initial covariance $`0\preceq C(0)\preceq I`$,
@@ -133,17 +133,17 @@ Finally, for arbitrary physical initial covariance $`0\preceq C(0)\preceq I`$,
 C(t)=K(t)C(0)K(t)^\dagger+C_L(t).
 ```
 
-The first term's bright and bright-dark blocks decay. Its surviving dark block is annihilated by $`\Gamma_R`$, so $`\operatorname{Tr}(\Gamma_RC(t))\to J_R`$. This proves the current statement without assuming full-state convergence.
+The first term's bright and bright-dark blocks decay. Its surviving dark block is annihilated by $`\Gamma_R`$, so $`\mathrm{Tr}(\Gamma_RC(t))\to J_R`$. This proves the current statement without assuming full-state convergence.
 
 ## Interpretation and useful consequences
 
 The physical left injection rate is Pauli blocked:
 
 ```math
-J_L=\operatorname{Tr}\bigl(\Gamma_L(I-C_L)\bigr).
+J_L=\mathrm{Tr}\bigl(\Gamma_L(I-C_L)\bigr).
 ```
 
-Taking the trace of the Lyapunov equation gives $`W=\operatorname{Tr}(\Gamma C_L)`$, hence $`J_L=J_R`$. Accordingly, $`p_R=J_R/W`$ is the auxiliary right-absorption probability, or current per bare injection attempt. It is not a fraction of successful many-body injection events.
+Taking the trace of the Lyapunov equation gives $`W=\mathrm{Tr}(\Gamma C_L)`$, hence $`J_L=J_R`$. Accordingly, $`p_R=J_R/W`$ is the auxiliary right-absorption probability, or current per bare injection attempt. It is not a fraction of successful many-body injection events.
 
 Write $`S=N/W`$. Monotonicity of $`q`$ and $`\int q\le S`$ imply, for every $`T>0`$,
 
@@ -160,7 +160,7 @@ Write $`S=N/W`$. Monotonicity of $`q`$ and $`\int q\le S`$ imply, for every $`T>
 
 These are the tail and truncated-second-moment guarantees used by a stopped estimator. They do not themselves give a quantum speedup; a measured first-exit simulation benefits from the same mean bound.
 
-If $`W_R=\operatorname{Tr}\Gamma_R>0`$, define the analogous mean $`\mathbb E\tau_R=\operatorname{Tr}C_R/W_R`$ for injection from the right. The exact sum rule is
+If $`W_R=\mathrm{Tr}\Gamma_R>0`$, define the analogous mean $`\mathbb E\tau_R=\mathrm{Tr}C_R/W_R`$ for injection from the right. The exact sum rule is
 
 ```math
 W\mathbb E\tau+W_R\mathbb E\tau_R=\dim\mathcal B.
@@ -170,11 +170,11 @@ Also $`0\le J_R\le\min\{W,W_R\}`$. These bounds are independent of how small a b
 
 For constant occupations $`n_L,n_R\in[0,1]`$, the source-driven covariance on $`\mathcal B`$ is $`n_RC_R+n_LC_L`$, and the net right current is $`(n_L-n_R)Wp_R`$. This extension retains energy-independent Markovian contacts.
 
-The source condition is essential. A general initial state can have order-one overlap with a nearly dark mode and an arbitrarily large lifetime. More generally, a positive source $`Q\preceq c\Gamma`$ obeys $`\int_0^\infty K(t)QK(t)^\dagger dt\preceq cP_{\mathcal B}`$, giving mean residence at most $`c\dim\mathcal B/\operatorname{Tr}Q`$ for initial state $`Q/\operatorname{Tr}Q`$.
+The source condition is essential. A general initial state can have order-one overlap with a nearly dark mode and an arbitrarily large lifetime. More generally, a positive source $`Q\preceq c\Gamma`$ obeys $`\int_0^\infty K(t)QK(t)^\dagger dt\preceq cP_{\mathcal B}`$, giving mean residence at most $`c\dim\mathcal B/\mathrm{Tr}Q`$ for initial state $`Q/\mathrm{Tr}Q`$.
 
 ## Exact discrete theorem and chronology
 
-The discrete theorem distinguishes the source matrix from the measured exit effect. Let $`A`$ be any contraction, let $`0\preceq Q\preceq I-AA^\dagger`$ with $`W=\operatorname{Tr}Q>0`$, and choose positive exit effects $`E_r`$ satisfying
+The discrete theorem distinguishes the source matrix from the measured exit effect. Let $`A`$ be any contraction, let $`0\preceq Q\preceq I-AA^\dagger`$ with $`W=\mathrm{Tr}Q>0`$, and choose positive exit effects $`E_r`$ satisfying
 
 ```math
 \sum_r E_r=I-A^\dagger A.
@@ -190,11 +190,11 @@ Then
 
 ```math
 0\preceq C\preceq I,\qquad C=ACA^\dagger+Q,\qquad
-\mathbb E\tau=\frac{\operatorname{Tr}C}{W}\le\frac NW,
+\mathbb E\tau=\frac{\mathrm{Tr}C}{W}\le\frac NW,
 ```
 
 ```math
-p_r=\frac{\operatorname{Tr}(E_rC)}W,\qquad \sum_rp_r=1.
+p_r=\frac{\mathrm{Tr}(E_rC)}W,\qquad \sum_rp_r=1.
 ```
 
 The residence time $`\tau`$ counts steps up to and including the exit step, so $`\tau\in\{1,2,\ldots\}`$. Indeed, the finite sum obeys
@@ -210,7 +210,7 @@ Its trace bounds $`\sum_{k\ge0}\Pr(\tau>k)`$ and implies that survival tends to 
 
 ```math
 \Pr(\tau>k)-\Pr(\tau>k+1)
-=\sum_r\operatorname{Tr}\!\left(E_rA^k\rho_{\mathrm{in}}(A^\dagger)^k\right)
+=\sum_r\mathrm{Tr}\!\left(E_rA^k\rho_{\mathrm{in}}(A^\dagger)^k\right)
 ```
 
 then proves exit normalization and the probability formula. The same source-reachable-rank refinement holds as in continuous time.
@@ -231,7 +231,7 @@ I-A^\dagger A=E_L+E_R,
 
 ```math
 C=\sum_{k=0}^\infty(DU)^kB_L(U^\dagger D)^k,\qquad
-p_R=\frac{\operatorname{Tr}(U^\dagger B_RUC)}{\operatorname{Tr}B_L}.
+p_R=\frac{\mathrm{Tr}(U^\dagger B_RUC)}{\mathrm{Tr}B_L}.
 ```
 
-Replacing the exit effect $`U^\dagger B_RU`$ by $`B_R`$ generally gives the wrong answer. With disjoint diagonal left and right contact sets, the associated filled-left/empty-right Gaussian collision model has covariance update $`C\mapsto DUC U^\dagger D+B_L`$ and right loss per step $`\operatorname{Tr}(B_RUC U^\dagger)=Wp_R`$. The continuous physical theorem permits general positive rate matrices; the discrete bath-current interpretation here uses these explicit independent contact collisions.
+Replacing the exit effect $`U^\dagger B_RU`$ by $`B_R`$ generally gives the wrong answer. With disjoint diagonal left and right contact sets, the associated filled-left/empty-right Gaussian collision model has covariance update $`C\mapsto DUC U^\dagger D+B_L`$ and right loss per step $`\mathrm{Tr}(B_RUC U^\dagger)=Wp_R`$. The continuous physical theorem permits general positive rate matrices; the discrete bath-current interpretation here uses these explicit independent contact collisions.

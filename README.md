@@ -2,10 +2,10 @@
 
 **Can a steady transport current be computed without waiting for the slowest mode to decay?** For a noninteracting fermion network with filled-source and empty-drain Markovian contacts, source balance bounds an auxiliary particle's mean residence time by the number of orbitals divided by the bare injection rate. This supports a quantum algorithm for one scalar current even with nonnormal dynamics, arbitrarily slow decay, or unreachable dark modes.
 
-Let $`N`$ be the number of orbitals, $`W=\operatorname{Tr}\Gamma_L`$ the bare source rate, and $`p_R=J_R/W`$ the normalized right current. The central identities and charged estimation bound are
+Let $`N`$ be the number of orbitals, $`W=\mathrm{Tr}\Gamma_L`$ the bare source rate, and $`p_R=J_R/W`$ the normalized right current. The central identities and charged estimation bound are
 
 ```math
-\mathbb E\tau=\frac{\operatorname{Tr}C_L}{W}\le\frac NW,
+\mathbb E\tau=\frac{\mathrm{Tr}C_L}{W}\le\frac NW,
 \qquad
 C_0+\widetilde O\!\left(
 \frac{(aN/W)C_B+C_P}{\epsilon}

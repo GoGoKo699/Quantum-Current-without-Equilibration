@@ -6,7 +6,7 @@ Let $`n=\lceil\log_2N\rceil`$. Specify a reversible circuit for a block encoding
 
 ```math
 V_L|0\rangle=|\Phi_L\rangle,\qquad
-\operatorname{Tr}_{\rm ref}|\Phi_L\rangle\langle\Phi_L|=\Gamma_L/W.
+\mathrm{Tr}_{\rm ref}|\Phi_L\rangle\langle\Phi_L|=\Gamma_L/W.
 ```
 
 Both $`V_L`$ and $`V_L^\dagger`$ must be implemented. Let $`C_P`$ be their gate cost. Let $`C_0`$ contain classical preprocessing, compilation, normalization computation, and any input loading. $`W`$ is known or computed at this charged cost; access to rate values alone does not supply their trace or the required distribution for free.
